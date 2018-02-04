@@ -1,10 +1,10 @@
 html {
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
-  max-width: 976px;
+  max-width: 956px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -75,6 +75,8 @@ header {
 .address {
   color: #626262;
   font-weight: 300;
+  margin-right: 9px;
+  margin-left: 9px;
 }
 
 .address-input {  
@@ -98,7 +100,7 @@ header {
   width: 80px;
   height: 40px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .sign-in-btn {  
@@ -109,24 +111,24 @@ header {
 }
 
 .register-btn {
-  margin-right: 27px;
   border: none;
   background-color: #262626;  
   color: #ffffff;
 }
 
 .cart-btn {
-  margin-top: 8.7px;
-  margin-bottom: -4.7px;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-bottom: -5.3px;
   width: 19px;
-  height: 22px; 
-  object-fit: contain;
+  height: 22px;
 }
 
 /* main */
 
 main {
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .search-input {
@@ -143,4 +145,50 @@ main {
 
 .search-input::placeholder {
   color: rgba(98,98,98,0.5);
+}
+
+.restaurants {
+  margin-top: 56px;
+}
+
+.restaurants h2 {
+  line-height: 34px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(29,29,29);
+  margin-bottom: 16px;
+}
+
+/* cards */
+
+.card {
+  width: 308px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1d;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+.tags {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #626262;
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.duration {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
