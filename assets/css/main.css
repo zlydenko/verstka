@@ -192,3 +192,101 @@ main {
   margin-bottom: 20px;
   margin-top: 0px;
 }
+
+/* footer */
+
+footer {
+  background-color: rgb(38, 38, 38);
+  position: relative;
+}
+
+.white-logo {
+  margin-top: 56px;
+  margin-bottom: 40px;
+  width: 192px;
+  height: 20px;
+}
+
+.decorate-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255,255,255,0.4);
+}
+
+.language-dropdown {
+  margin-top: 32px;
+}
+
+.hashtag span {
+  color: rgb(73, 161, 68);
+}
+
+.hashtag {
+  margin-top: 33px;
+  margin-bottom: 17px;
+  color: rgb(255, 255, 255);
+}
+
+.social-icons img {
+  margin-right: 12px;
+}
+
+.social-icons {
+  margin-bottom: 55px;
+}
+
+.links {
+  margin-top: 39px;  
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.links a {
+  margin-bottom: 23px;
+  display: block;  
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.download-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.download-links img:first-child {
+  margin-right: 40.34px;
+}
+
+.legal-links {
+  margin-top: 40px;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.legal-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.scroll-btn {
+  position: relative;
+  bottom: 48px;
+  right: -59px; 
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(89, 189, 90);
+}
+
+.arrow-icon {
+  width: 16px;
+  height: 26px;
+  object-fit: contain;
+}
