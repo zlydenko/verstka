@@ -173,6 +173,10 @@ footer {
 
 .language-dropdown {
   margin-top: 32px;
+  background-color: #3B3B3B;
+  width: 227px;
+  height: 40px;
+  border-radius: 2px;
 }
 
 .hashtag span {
