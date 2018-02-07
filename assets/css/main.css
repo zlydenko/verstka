@@ -9,6 +9,8 @@ html {
 header {
   padding: 16px 0;
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+
+  margin-bottom: 32px;
 }
 
 .account {
@@ -27,6 +29,13 @@ header {
   margin-top: 14px;
 }
 
+@media only screen and (min-width: 768px) {
+  .logo {
+    width: 107px;
+    height: 11px;
+  }
+}
+
 .logo-img {
   width: 100%;
 }
@@ -43,6 +52,13 @@ header {
 
   border: 1px solid #E0E0E0;
   border-radius: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-time {
+    width: 57px;
+    font-size: 13px;
+  }
 }
 
 .order span {
@@ -114,4 +130,193 @@ header {
 
 /* main */
 
+main {
+  padding-bottom: 80px;
+}
+
+.restaurants-search {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(117,117,117,0.3);
+  background-color: inherit;
+  background-image: url('../img/icons/search.svg');
+  background-repeat: no-repeat;
+  background-position: 1px 1px;
+  text-indent: 30px;
+  padding-bottom: 16px;
+  margin-bottom: 56px;
+
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(98, 98, 98, 0.5);
+}
+
+.restaurant-card {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.restaurant-card img {
+  width: 100%;
+}
+
+.restaurant-title {
+  margin-top: 16px;
+  margin-bottom: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #1D1D1D;
+}
+
+.restaurant-tags {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #626262;
+}
+
+.restaurant-duration {
+  margin-top: 4px;
+  margin-bottom: 20px;
+
+  font-size: 13px;
+  line-height: 21px;
+
+  color: #1D1D1D;
+}
+
 /* footer */
+
+footer {
+  position: relative;
+  padding-top: 56px;
+  padding-bottom: 40px;
+
+  background-color: #262626;
+}
+
+.white-logo {
+  width: 192px;
+  height: 20px;
+  margin-bottom: 40px;
+}
+
+.white-logo img {
+  width: 100%;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.info {
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+
+.language-dropdown {
+  width: 227px;
+  background-color: #3B3B3B;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 12px 0;
+  text-indent: 48px;
+  background-image: url('../img/icons/world.svg');
+  background-repeat: no-repeat;
+  background-position: 16px 12px;
+}
+
+.hashtag {
+  color: #49A144;
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-top: 33px;
+  margin-bottom: 17px;
+}
+
+.hashtag span {
+  color: #ffffff;
+}
+
+.facebook-link,
+.twitter-link,
+.instagram-link {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.facebook-link {
+  margin-right: 12px;
+}
+
+.twitter-link {
+  margin-right: 8px;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 23px;
+}
+
+.links a:last-child {
+  margin-bottom: 0px;
+}
+
+.download-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.app-store-icon {
+  margin-right: 41.22px;
+}
+
+.legal-links {
+  padding-top: 40px;
+
+  font-size: 11px;
+  line-height: 13px;
+  
+  color: #FFFFFF;
+}
+
+.legal-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.updown-btn {
+  position: absolute;
+  bottom: 24px;
+  right: 16px;
+
+  width: 80px;
+  height: 80px;
+  background-color: #59BD5A;
+  border-radius: 2px;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
