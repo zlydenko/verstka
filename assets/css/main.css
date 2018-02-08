@@ -72,6 +72,15 @@ header {
   margin-left: 9px;
 }
 
+@media only screen and (min-width: 768px) {
+  .order span {
+    font-size: 13px;
+    line-height: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
 .order-dest {
   width: 292px;
 
@@ -90,6 +99,13 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #1D1D1D;
+}
+
+@media only screen and (min-width: 768px) {
+  .order-dest {
+    width: 215px;
+    font-size: 13px;
+  }
 }
 
 .sign-in,
@@ -152,6 +168,13 @@ main {
   color: rgba(98, 98, 98, 0.5);
 }
 
+.restaurants-title {
+  font-family: inherit;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
 .restaurant-card {
   width: 100%;
   margin-bottom: 16px;
@@ -171,6 +194,8 @@ main {
 
   color: #1D1D1D;
 }
+
+
 
 .restaurant-tags {
   margin-top: 0px;
@@ -237,6 +262,12 @@ hr {
   background-image: url('../img/icons/world.svg');
   background-repeat: no-repeat;
   background-position: 16px 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .language-dropdown {
+    width: 176px;
+  }
 }
 
 .hashtag {
