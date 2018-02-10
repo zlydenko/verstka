@@ -3,6 +3,7 @@
 <head>
   <title>Uber Eats</title>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
   <link rel="stylesheet" href="./assets/css/layout.css">
@@ -20,7 +21,7 @@
         </div>
         <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
           <div class="order">
-            <button class="order-time">ASAP</button>
+            <input type="text" class="order-time" value="ASAP">
             <span>to</span>
             <input class="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
           </div>
@@ -42,11 +43,32 @@
     <div class="container">
       <input class="restaurants-search" type="text" placeholder="Search for restaurant or cuisine">
       
+      <div class="row">
+        <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
+          <div class="order">
+            <div class="row">
+              <div class="col-xs-3">
+                <label for="order-time" class="order-time-label">When</label>
+              </div>
+              <div class="col-xs-9">              
+                <label for="order-dest" class="order-time-label">To</label> 
+              </div> 
+              <div class="col-xs-3">
+                <input class="order-time" name="order-time" type="text" value="ASAP">
+              </div>
+              <div class="col-xs-9">              
+                <input class="order-dest" name="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <section class="restaurants">
         <h1 class="restaurants-title">Moscow Restaurants</h1>
       
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/1.png" srcset="./assets/img/restaurant-cards/1@2x.png 2x,
             ./assets/img/restaurant-cards/1@3x.png 3x" alt="Макдоналдс — Газетный">
@@ -58,7 +80,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/2.png" srcset="./assets/img/restaurant-cards/2@2x.png 2x,
               ./assets/img/restaurant-cards/2@3x.png 3x" alt="DimSum &#38; Co — ЦДМ">
@@ -70,7 +92,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/3.png" srcset="./assets/img/restaurant-cards/3@2x.png 2x,
               ./assets/img/restaurant-cards/3@3x.png 3x" alt="ДвижОК — Манежная">
@@ -82,7 +104,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/4.png" srcset="./assets/img/restaurant-cards/4@2x.png 2x,
                 ./assets/img/restaurant-cards/4@3x.png 3x" alt="НЯ — NHA">
@@ -94,7 +116,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/5.png" srcset="./assets/img/restaurant-cards/5@2x.png 2x,
               ./assets/img/restaurant-cards/5@3x.png 3x" alt="Точка Дзы — Цветной">
@@ -106,7 +128,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/6.png" srcset="./assets/img/restaurant-cards/6@2x.png 2x,
               ./assets/img/restaurant-cards/6@3x.png 3x" alt="Cinnabon">
@@ -118,7 +140,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/7.png" srcset="./assets/img/restaurant-cards/7@2x.png 2x,
               ./assets/img/restaurant-cards/7@3x.png 3x" alt="PIZZELOVE">
@@ -130,7 +152,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/8.png" srcset="./assets/img/restaurant-cards/8@2x.png 2x,
               ./assets/img/restaurant-cards/8@3x.png 3x" alt="Zю кафе — Тверская">
@@ -142,7 +164,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 col-xl-4">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
             <div class="restaurant-card">
               <img src="./assets/img/restaurant-cards/9.png" srcset="./assets/img/restaurant-cards/9@2x.png 2x,
               ./assets/img/restaurant-cards/9@3x.png 3x" alt="Bar BQ Cafe — Манежная">
