@@ -51,10 +51,16 @@ header {
   border-radius: 2px;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .order-time {
     width: 57px;
     font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .order-time {
+    width: 65px;
   }
 }
 
@@ -258,18 +264,18 @@ footer {
   position: relative;
   padding-top: 56px;
   padding-bottom: 40px;
-
   background-color: #262626;
 }
 
 .white-logo {
-  width: 192px;
-  height: 20px;
+  display: flex;
+  justify-content: flex-start;  
   margin-bottom: 40px;
 }
 
-.white-logo img {
-  width: 100%;
+.white-logo-img {
+  width: 192px;
+  height: 20px;
 }
 
 hr {
@@ -334,6 +340,23 @@ hr {
   margin-right: 8px;
 }
 
+.links:first-child {
+  margin-top: 39px;
+}
+
+.links:last-child {
+  margin-top: 23px;
+}
+
+@media only screen and (min-width: 768px) {
+  .links:first-child {
+    margin-top: 0px;
+  }
+  .links:last-child {
+    margin-top: 0px;
+  }
+}
+
 .links a {
   display: block;
   text-decoration: none;
@@ -350,15 +373,28 @@ hr {
 .download-links {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .download-links {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 .app-store-icon {
-  margin-right: 41.22px;
+  margin-right: 24.4px;
 }
 
-.legal-links {
+@media only screen and (min-width: 768px) {
+  .app-store-icon {
+    margin-right: 41.22px;
+  }
+}
+
+.legal-info {
   padding-top: 40px;
 
   font-size: 11px;
@@ -370,6 +406,16 @@ hr {
 .legal-links a {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.legal-links {
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .legal-links {
+    margin-top: 0px;
+  }
 }
 
 .updown-btn {
