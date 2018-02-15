@@ -1,13 +1,15 @@
 {
-  "name": "Fake-ubereats",
+  "name": "Demo_ubereats",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:zlydenko/verstka.git",
   "author": "zlydenko <anton.zlydenko@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postcss-watch": "yarn postcss assets/css/main.css --output build/styles/style.css --watch",
-    "compile-styles": "yarn postcss assets/css/main.css --output build/styles/style.css"
+    "postcss-watch":
+      "yarn postcss assets/css/main.css --output build/styles/style.css --watch",
+    "compile-styles":
+      "yarn postcss assets/css/main.css --output build/styles/style.css"
   },
   "devDependencies": {
     "postcss": "^6.0.17",

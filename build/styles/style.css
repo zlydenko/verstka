@@ -1,7 +1,7 @@
 html {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #F2F2F2;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f2f2;
 }
 
 /* header */
@@ -50,14 +50,14 @@ header {
   width: 65px;
   height: 40px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   line-height: 24px;
-  color: #1D1D1D;
+  color: #1d1d1d;
   background-color: #ffffff;
   text-align: center;
 
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 2px;
 }
 
@@ -82,7 +82,7 @@ header {
 }
 
 .order span {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
@@ -101,23 +101,23 @@ header {
   }
 }
 
-.order-dest {  
+.order-dest {
   width: 100%;
   padding-top: 8px;
   padding-bottom: 8px;
 
-  border: 1px solid #E0E0E0;
+  border: 1px solid #e0e0e0;
   border-radius: 2px;
 
-  background-image: url('../../assets/img/icons/location.svg');
+  background-image: url("../../assets/img/icons/location.svg");
   background-repeat: no-repeat;
   background-position: 12px 12px;
   text-indent: 36px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   line-height: 24px;
-  color: #1D1D1D;
+  color: #1d1d1d;
 }
 
 @media only screen and (min-width: 768px) {
@@ -148,19 +148,19 @@ header {
   height: 40px;
   border-radius: 2px;
 
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
-  
+
   padding-top: 8px;
   padding-bottom: 8px;
 }
 
 .sign-in {
-  background-color: #FFFFFF;
-  border: 1px solid #E0E0E0;
-  color: #1D1D1D;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  color: #1d1d1d;
 
   margin-right: 16px;
 }
@@ -168,7 +168,7 @@ header {
 .register {
   background-color: #262626;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 576px) {
@@ -200,7 +200,7 @@ main {
   border: none;
   border-bottom: 1px solid rgba(117, 117, 117, .3);
   background-color: inherit;
-  background-image: url('../../assets/img/icons/search.svg');
+  background-image: url("../../assets/img/icons/search.svg");
   background-repeat: no-repeat;
   background-position: 1px 1px;
   text-indent: 24px;
@@ -218,7 +218,7 @@ main {
     font-size: 16px;
     padding-bottom: 16px;
     text-indent: 30px;
-    
+
     margin-bottom: 56px;
   }
 }
@@ -247,10 +247,8 @@ main {
   font-size: 16px;
   line-height: 24px;
 
-  color: #1D1D1D;
+  color: #1d1d1d;
 }
-
-
 
 .restaurant-tags {
   margin-top: 0px;
@@ -269,7 +267,7 @@ main {
   font-size: 13px;
   line-height: 21px;
 
-  color: #1D1D1D;
+  color: #1d1d1d;
 }
 
 /* footer */
@@ -287,7 +285,7 @@ footer {
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;  
+          justify-content: flex-start;
   margin-bottom: 40px;
 }
 
@@ -311,14 +309,14 @@ hr {
 
 .language-dropdown {
   width: 227px;
-  background-color: #3B3B3B;
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   line-height: 15px;
   padding: 12px 0;
   text-indent: 48px;
-  background-image: url('../../assets/img/icons/world.svg');
+  background-image: url("../../assets/img/icons/world.svg");
   background-repeat: no-repeat;
   background-position: 16px 12px;
 }
@@ -330,7 +328,7 @@ hr {
 }
 
 .hashtag {
-  color: #49A144;
+  color: #49a144;
   font-size: 16px;
   line-height: 19px;
 
@@ -378,7 +376,7 @@ hr {
 .links a {
   display: block;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
   line-height: 15px;
   margin-bottom: 23px;
@@ -421,13 +419,13 @@ hr {
 
   font-size: 11px;
   line-height: 13px;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
 .legal-links a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .legal-links {
@@ -447,7 +445,7 @@ hr {
 
   width: 80px;
   height: 80px;
-  background-color: #59BD5A;
+  background-color: #59bd5a;
   border-radius: 2px;
 
   display: -webkit-box;
