@@ -233,8 +233,10 @@ main {
   margin-bottom: 16px;
 }
 
-.restaurant-card img {
+.restaurant-img {
   width: 100%;
+  max-height: 250px;
+  object-fit: cover;
 }
 
 .restaurant-title {
