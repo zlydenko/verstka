@@ -12,8 +12,8 @@
 
 html {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
-  background-color: #f2f2f2;
+  font-family: var(--font);
+  background-color: var(--bgColor);
 }
 
 /* header */
@@ -80,7 +80,7 @@ header {
   font-family: inherit;
   font-size: 11px;
   line-height: 13px;
-  color: #626262;
+  color: var(--secondaryColor);
 }
 
 .order span {
@@ -88,7 +88,7 @@ header {
   font-weight: 300;
   font-size: 13px;
   line-height: 15px;
-  color: #626262;
+  color: var(--secondaryColor);
 
   margin-right: 9px;
   margin-left: 9px;
@@ -116,10 +116,10 @@ header {
   background-position: 12px 12px;
   text-indent: 36px;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font);
   font-size: 13px;
   line-height: 24px;
-  color: #1d1d1d;
+  color: var(--textColor);
 }
 
 @media only screen and (--sm-viewport) {
@@ -146,7 +146,7 @@ header {
   height: 40px;
   border-radius: 2px;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font);
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
@@ -158,13 +158,13 @@ header {
 .sign-in {
   background-color: #ffffff;
   border: 1px solid #e0e0e0;
-  color: #1d1d1d;
+  color: var(--textColor);
 
   margin-right: 16px;
 }
 
 .register {
-  background-color: #262626;
+  background-color: var(--footerColor);
   border: none;
   color: #ffffff;
 }
@@ -247,7 +247,7 @@ main {
   font-size: 16px;
   line-height: 24px;
 
-  color: #1d1d1d;
+  color: var(--textColor);
 }
 
 .restaurant-tags {
@@ -257,7 +257,7 @@ main {
   font-size: 14px;
   line-height: 21px;
 
-  color: #626262;
+  color: var(--secondaryColor);
 }
 
 .restaurant-duration {
@@ -267,7 +267,7 @@ main {
   font-size: 13px;
   line-height: 21px;
 
-  color: #1d1d1d;
+  color: var(--textColor);
 }
 
 /* footer */
@@ -276,7 +276,7 @@ footer {
   position: relative;
   padding-top: 56px;
   padding-bottom: 40px;
-  background-color: #262626;
+  background-color: var(--footerColor);
 }
 
 .white-logo {
@@ -307,7 +307,7 @@ hr {
   width: 227px;
   background-color: #3b3b3b;
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font);
   font-size: 13px;
   line-height: 15px;
   padding: 12px 0;
