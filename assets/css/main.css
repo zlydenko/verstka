@@ -61,6 +61,7 @@ header {
 
   border: 1px solid #e0e0e0;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 @media only screen and (--sm-viewport) {
@@ -142,6 +143,7 @@ header {
 
 .sign-in,
 .register {
+  cursor: pointer;
   width: 72px;
   height: 40px;
   border-radius: 2px;
@@ -185,6 +187,7 @@ header {
 .cart-img {
   width: 19px;
   height: 22px;
+  cursor: pointer;
 }
 
 /* main */
@@ -431,6 +434,7 @@ hr {
 }
 
 .updown-btn {
+  cursor: pointer;
   position: absolute;
   bottom: 24px;
   right: 16px;
