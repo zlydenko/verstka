@@ -232,8 +232,8 @@ main {
 }
 
 .restaurant-card {
-  width: 100%;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .restaurant-img {
