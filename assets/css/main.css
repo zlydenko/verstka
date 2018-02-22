@@ -433,9 +433,10 @@ hr {
   }
 }
 
-.updown-btn {
+.scroll-to-top {
   cursor: pointer;
-  position: absolute;
+  border: none;
+  position: fixed;
   bottom: 24px;
   right: 16px;
 
@@ -444,7 +445,20 @@ hr {
   background-color: #59bd5a;
   border-radius: 2px;
 
-  display: flex;
+  display: none;
   justify-content: center;
   align-content: center;
+}
+
+.visible-animate {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
