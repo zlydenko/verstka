@@ -6,10 +6,8 @@
   "author": "zlydenko <anton.zlydenko@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postcss-watch":
-      "yarn postcss assets/css/main.css --output build/styles/style.css --watch",
     "compile-styles":
-      "yarn postcss assets/css/main.css --output build/styles/style.css"
+      "yarn postcss assets/css/main.css --output build/styles/main.css && yarn postcss assets/css/restaurant.css --output build/styles/restaurant.css"
   },
   "devDependencies": {
     "postcss": "^6.0.17",
