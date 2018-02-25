@@ -1,5 +1,51 @@
 /* restaurant menu */
 
+.food-categories {
+  background-color: #fff;
+  display: none;
+  margin-bottom: 56px;
+}
+
+@media only screen and (min-width: 768px) {
+  .food-categories {
+    display: block;
+  }
+}
+
+.menu-btn {
+  background-color: inherit;
+  padding-top: 32px;
+  padding-bottom: 29px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  cursor: pointer;
+}
+
+.menu-btn:first-child {
+  padding-left: 0px;
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+  background-color: rgba(117, 117, 117, .04);
+}
+
+.menu-btn:disabled {
+  color: #327430;
+}
+
+.menu-btn:disabled:hover,
+.menu-btn:disabled:focus {
+  background-color: inherit;
+}
+
+/* snacks */
+
 .menu-title {
   margin-top: 112px;
   font-size: 22px;
@@ -17,7 +63,18 @@
   margin-bottom: 43px;
 }
 
-/* snack card */
+@media only screen and (min-width: 768px) {
+  .menu-title {
+    margin-top: 0px;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+
+  .menu-separator {
+    display: none;
+    visibility: hidden;
+  }
+}
 
 .snack {
   display: -webkit-box;
