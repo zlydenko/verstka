@@ -19,6 +19,9 @@ html {
 /* header */
 
 header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   padding: 16px 0;
   box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
@@ -214,8 +217,12 @@ header {
 
 main {
   background-color: rgb(255, 255, 255);
-  padding-top: 32px;
+  padding-top: 124px;
   padding-bottom: 80px;
+}
+
+main.restaurant-content {
+  padding-top: 74px;
 }
 
 .restaurants-search {
