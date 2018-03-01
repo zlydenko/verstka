@@ -9,10 +9,18 @@
   <meta name="keywords" content="uber, ubereats, food, delivery, restaurants, burgers">
   <link rel="canonical" href="https://hungry-lamport-3c166f.netlify.com">
 
+  <link rel="preload" href="https://unpkg.com/normalize.css@7.0.0/normalize.css" as="style">
+  <link rel="preload" href="./assets/css/layout.css" as="style">
+  <link rel="preload" href="./build/styles/main.css" as="style">
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
   <link rel="stylesheet" href="./assets/css/layout.css">
   <link rel="stylesheet" href="./build/styles/main.css">
+
+  <link rel="preload" href="./assets/main.js" as="script">
+  <link rel="prefetch" href="./restaurant.html" as="html">
+  <link rel="preload" href="./build/restaurant.css" as="style">
 </head>
 
 <body>
@@ -274,7 +282,7 @@
   <button class="scroll-to-top">
     <img src="./assets/img/icons/arrow.svg">
   </button>
-  <script src="./assets/main.js"></script>
+  <script async src="./assets/main.js"></script>
 </body>
 
 </html>
