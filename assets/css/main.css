@@ -34,16 +34,9 @@ header {
 }
 
 .logo-img {
-  width: 107px;
-  height: 11px;
+  width: 115px;
+  height: 12px;
   align-self: center;
-}
-
-@media only screen and (--md-viewport) {
-  .logo-img {
-    width: 121px;
-    height: 13px;
-  }
 }
 
 .account {
