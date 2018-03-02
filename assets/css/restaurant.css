@@ -16,15 +16,8 @@
 
 .food-categories {
   background-color: #fff;
-  display: none;
   margin-bottom: 56px;
   border-bottom: 1px solid rgba(117, 117, 117, 0.2);
-}
-
-@media only screen and (--sm-viewport) {
-  .food-categories {
-    display: block;
-  }
 }
 
 .menu-btn {
