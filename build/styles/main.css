@@ -220,6 +220,11 @@ main.restaurant-content {
   padding-top: 74px;
 }
 
+.restaurants {
+  display: none;
+  visibility: hidden;
+}
+
 .restaurants-search {
   width: 100%;
   border: none;
@@ -487,127 +492,61 @@ hr {
 }
 
 .visible-animate {
-  -webkit-animation: fadein 2s;
-          animation: fadein 2s;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
 }
 
-/* restaurant page */
+/* spinner */
 
-.hero {
+.spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 0px auto;
+}
+
+.double-bounce1,
+.double-bounce2 {
   width: 100%;
-  min-height: 256px;
-  background-image: url("../../assets/img/pushkin-main.png");
-  background-position: center center;
-  background-size: cover;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
 
-  display: -webkit-box;
+  -webkit-animation: sk-bounce 2s infinite ease-in-out;
 
-  display: -ms-flexbox;
-
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+          animation: sk-bounce 2s infinite ease-in-out;
 }
 
-@media only screen and (min-width: 768px) {
-  .hero {
-    min-width: 364px;
+.double-bounce2 {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
-.main-info {
-  margin-bottom: -160px;
-  background-color: #fff;
-  padding: 24px 49px;
-  -webkit-box-shadow: 0px 0px 16px rgba(117, 117, 117, .2);
-          box-shadow: 0px 0px 16px rgba(117, 117, 117, .2);
-  border-radius: 2px;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-info {
-    margin-bottom: 0px;
+@keyframes sk-bounce {
+  0%,
+  100% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
-}
-
-.main-info .restaurant-title {
-  margin: 0px;
-  margin-bottom: 40px;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-info .restaurant-title {
-    text-align: left;
-    font-size: 34px;
-    line-height: 42px;
-    font-weight: 400;
-  }
-}
-
-.main-info .restaurant-tags {
-  line-height: 16px;
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-@media only screen and (min-width: 768px) {
-  .main-info .restaurant-tags {
-    margin-bottom: 0px;
-  }
-}
-
-.main-info .restaurant-duration {
-  margin: 0px;
-  color: #fff;
-  font-size: 13px;
-  line-height: 15px;
-}
-
-.duration {
-  background-color: #262626;
-  border-radius: 16px;
-  padding: 9px 16px;
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media only screen and (min-width: 768px) {
-  .duration {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-}
-
-.tags-duration {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-@media only screen and (min-width: 768px) {
-  .tags-duration {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  50% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
