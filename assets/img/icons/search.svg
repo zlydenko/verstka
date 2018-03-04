@@ -1,14 +1,1 @@
-<svg width="22" height="21" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title></title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="matrix(0.958904 0 0 0.958904 480.411 373.973)">
-<g id="search">
-<g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(-501 -390)" fill="#262626"/>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" fill-rule="evenodd" d="M 8.29999 0C 12.8 0 16.5 3.60001 16.5 8.20001C 16.5 10.3 15.7 12.2 14.5 13.5L 22 21L 21.1 21.9L 13.6 14.4C 12.1 15.6 10.2 16.4 8.20001 16.4C 3.70001 16.4 0 12.8 0 8.20001C 0 3.70001 3.70001 0 8.29999 0ZM 1.20001 8.20001C 1.20001 12.1 4.40002 15.2 8.20001 15.2C 12.1 15.2 15.2 12.1 15.2 8.20001C 15.2 4.30002 12.1 1.20001 8.20001 1.20001C 4.30002 1.20001 1.20001 4.40002 1.20001 8.20001Z"/>
-</defs>
-</svg>
+<svg width="22" height="21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><use xlink:href="#path0_fill" transform="matrix(.9589 0 0 .9589 .0001 .0004)" fill="#262626"/><defs><path id="path0_fill" fill-rule="evenodd" d="M8.3 0c4.5 0 8.2 3.6 8.2 8.2 0 2.1-.8 4-2 5.3L22 21l-.9.9-7.5-7.5c-1.5 1.2-3.4 2-5.4 2-4.5 0-8.2-3.6-8.2-8.2C0 3.7 3.7 0 8.3 0zM1.2 8.2c0 3.9 3.2 7 7 7 3.9 0 7-3.1 7-7s-3.1-7-7-7-7 3.2-7 7z"/></defs></svg>
