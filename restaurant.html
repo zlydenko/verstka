@@ -83,15 +83,16 @@
         </div>
         <div class="hidden-xs hidden-sm col-md-5 col-lg-6">
           <div class="order">
-            <button class="order-time" type="button">ASAP</button>
+            <button class="order-time" type="button" aria-labelledby="ASAP">ASAP</button>
             <span>to</span>
-            <input class="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <input class="order-dest" id="order-destination" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <label for="order-destination" style="display:none;">укажите адрес доставки</label>
           </div>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-3">
           <div class="account">
-            <button class="sign-in">Sign in</button>
-            <button class="register">Register</button>
+            <button class="sign-in" type="button" aria-labelledby="Sign in">Sign in</button>
+            <button class="register" type="button" aria-labelledby="Register">Register</button>
             <div class="hidden-xs hidden-sm cart">
               <svg width="19" height="22">
                 <use xlink:href="#basket-icon"></use>

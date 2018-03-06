@@ -81,15 +81,16 @@
         </div>
         <div class="hidden-xs hidden-sm col-md-5 col-lg-6">
           <div class="order">
-            <button class="order-time" type="button">ASAP</button>
+            <button class="order-time" type="button" aria-labelledby="ASAP">ASAP</button>
             <span>to</span>
-            <input class="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <input class="order-dest" id="order-destination" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <label for="order-destination" style="display:none;">укажите адрес доставки</label>
           </div>
         </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-3">
           <div class="account">
-            <button class="sign-in">Sign in</button>
-            <button class="register">Register</button>
+            <button class="sign-in" aria-labelledby="Sign in">Sign in</button>
+            <button class="register" aria-labelledby="Register">Register</button>
             <div class="hidden-xs hidden-sm cart">
               <svg width="19" height="22">
                 <use xlink:href="#basket-icon"></use>
@@ -111,16 +112,16 @@
           <div class="order">
             <div class="row">
               <div class="col-xs-3">
-                <label for="order-time" class="order-time-label">When</label>
+                <label for="o-time" class="order-time-label">When</label>
               </div>
               <div class="col-xs-9">
-                <label for="order-dest" class="order-time-label">To</label>
+                <label for="o-dest" class="order-time-label">To</label>
               </div>
               <div class="col-xs-3">
-                <button class="order-time" type="button">ASAP</button>
+                <button class="order-time" id="o-time" type="button">ASAP</button>
               </div>
               <div class="col-xs-9">
-                <input class="order-dest" name="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+                <input class="order-dest" id="o-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
               </div>
             </div>
           </div>
