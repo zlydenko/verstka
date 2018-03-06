@@ -296,7 +296,9 @@ main.restaurant-content {
 
 /* footer */
 
-footer {
+.main-footer {
+  display: none;
+  visibility: hidden;
   position: relative;
   padding-top: 56px;
   padding-bottom: 40px;
