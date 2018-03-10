@@ -1,10 +1,10 @@
 {
   "name": "Uber Eats demo",
-  "short_name": "demo uber eats",
+  "short_name": "notubereats",
   "description": "demo app for uber eats food delivery",
   "lang": "ru",
   "start_url": "/index.html",
-  "display": "browser",
+  "display": "minimal-ui",
   "theme_color": "#59bd5a",
   "icons": [
     {
