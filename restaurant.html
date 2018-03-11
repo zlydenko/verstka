@@ -92,8 +92,8 @@
         </div>
         <div class="col-xs-6 col-sm-6 col-md-5 col-lg-3">
           <div class="account">
-            <button class="sign-in" type="button" aria-labelledby="Sign in">Sign in</button>
-            <button class="register" type="button" aria-labelledby="Register">Register</button>
+            <button class="sign-in" type="button">Sign in</button>
+            <button class="register" type="button">Register</button>
             <div class="hidden-xs hidden-sm cart">
               <svg width="19" height="22">
                 <use xlink:href="#basket-icon"></use>
@@ -245,7 +245,8 @@
         <div class="row">
 
           <div class="col-md-4 col-lg-4 col-xl-4">
-            <select class="language-dropdown">
+            <label style="display:none;" for="lang-dropdown">Choose language used on page</label>
+            <select class="language-dropdown" id="lang-dropdown">
               <option>ENGLISH</option>
             </select>
             <p class="hashtag">#
