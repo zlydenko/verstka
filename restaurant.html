@@ -311,6 +311,9 @@
     <img src="./assets/img/icons/arrow.svg">
   </button>
   <script async src="./build/js/scrollToTop.min.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('./build/js/serviceworker.min.js') }
+  </script>
 </body>
 
 </html>
