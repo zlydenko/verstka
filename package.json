@@ -1,13 +1,13 @@
 {
-  "name": "Demo_ubereats",
-  "version": "1.0.0",
+  "name": "Not a Uber Eats",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "git@github.com:zlydenko/verstka.git",
   "author": "zlydenko <anton.zlydenko@gmail.com>",
   "license": "MIT",
   "scripts": {
     "compile-styles":
-      "yarn postcss assets/css/main.css --output build/styles/main.css && yarn postcss assets/css/restaurant.css --output build/styles/restaurant.css"
+      "yarn postcss assets/css/*.css --output build/styles/*.css"
   },
   "devDependencies": {
     "postcss": "^6.0.17",
