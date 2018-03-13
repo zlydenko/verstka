@@ -10,14 +10,14 @@
 
 ## Главная страница
 
-![main page on iPhone](https://github.com/zlydenko/verstka/tree/dev/preview/main/iphone.png?raw=true "main page on iPhone")
-![main page on iPad](https://github.com/zlydenko/verstka/tree/dev/preview/main/ipad.png?raw=true "main page on iPad")
-![main page on laptop](https://github.com/zlydenko/verstka/tree/dev/preview/main/laptop.png?raw=true "main page on laptop")
+![main page on iPhone](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png "main page on iPhone")
+![main page on iPad](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png "main page on iPad")
+![main page on laptop](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png "main page on laptop")
 
 ---
 
 ## Страница ресторана
 
-![restaurant page on iPhone](https://github.com/zlydenko/verstka/tree/dev/preview/restaurant/iphone.png?raw=true "restaurant page on iPhone")
-![restaurant page on iPad](https://github.com/zlydenko/verstka/tree/dev/preview/restaurant/ipad.png?raw=true "restaurant page on iPad")
-![restaurant page on laptop](https://github.com/zlydenko/verstka/tree/dev/preview/restaurant/laptop.png?raw=true "restaurant page on laptop")
+![restaurant page on iPhone](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png "restaurant page on iPhone")
+![restaurant page on iPad](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png "restaurant page on iPad")
+![restaurant page on laptop](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png "restaurant page on laptop")
