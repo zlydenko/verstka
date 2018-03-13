@@ -10,14 +10,14 @@
 
 ## Главная страница
 
-![main page on iPhone](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png "main page on iPhone")
-![main page on iPad](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png "main page on iPad")
-![main page on laptop](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png "main page on laptop")
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png" width="70%" alt="main page on iPhone">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png" width="25%" alt="main page on iPad">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png" width="100%" alt="main page on laptop">
 
 ---
 
 ## Страница ресторана
 
-![restaurant page on iPhone](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png "restaurant page on iPhone")
-![restaurant page on iPad](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png "restaurant page on iPad")
-![restaurant page on laptop](https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png "restaurant page on laptop")
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/ipad.png" width="70%" alt="restaurant page on iPhone">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/iphone.png" width="25%" alt="restaurant page on iPad">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/laptop.png" width="100%" alt="restaurant page on laptop">
