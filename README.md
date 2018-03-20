@@ -10,14 +10,13 @@
 
 ## Главная страница
 
-<div><img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png" width="60%" alt="main page on iPhone" style="margin-right:10%">
-<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png" width="20%" alt="main page on iPad">
-<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png" width="100%" alt="main page on laptop"></div>
+<div><img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png" width="60%" alt="main page on iPhone" style="margin-right: 10%">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png" width="20%" alt="main page on iPad"></div>
 
 ---
 
 ## Страница ресторана
 
-<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/ipad.png" width="70%" alt="restaurant page on iPhone">
+<div><img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/ipad.png" width="70%" alt="restaurant page on iPhone">
 <img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/iphone.png" width="25%" alt="restaurant page on iPad">
-<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/restaurant/laptop.png" width="100%" alt="restaurant page on laptop">
+</div>
