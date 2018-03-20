@@ -1,16 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
+
 <head>
-  <title>Uber Eats</title>
+  <title>Stores | Uber Eats</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-  <link rel="stylesheet" href="https://unpkg.com/normalize.css@7.0.0/normalize.css">
-  <link rel="stylesheet" href="./assets/css/layout.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
+  <meta name="description" content="С доставкой Uber Eats вы можете в любое время заказать лучшую еду из ресторанов. Меню наших партнеров включает как ваши любимые блюда, так и те, которые вы всегда хотели попробовать. Оплата происходит по безналичному расчету, как и в обычных поездках с Uber. Просто сделайте заказ в приложении, встретьте курьера у двери и наслаждайтесь!">
+  <meta name="keywords" content="uber, ubereats, food, delivery, restaurants, burgers">
+  <link rel="apple-touch-icon" sizes="57x57" href="./build/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./build/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./build/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./build/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./build/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./build/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./build/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./build/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./build/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./build/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./build/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./build/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./build/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./build/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./build/favicon/ms-icon-144x144.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="demo uber eats">
+  <meta name="apple-mobile-web-app-title" content="demo uber eats">
+  <meta name="theme-color" content="#59bd5a">
+  <meta name="msapplication-navbutton-color" content="#59bd5a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="msapplication-starturl" content="/index.html">
+  <link rel="canonical" href="https://uber-eats-demo.netlify.com/index.html">
+
+  <link rel="dns-prefetch" href="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards">
+
+  <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2" as="font" type="font/woff2"
+    crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2" as="font" type="font/woff2"
+    crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./build/styles/main.min.css">
+
 </head>
+
 <body>
-  
+  <svg style="display: none;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <symbol id="arrow-to-top">
+      <path transform="matrix(.9604 0 0 .9604 .0005 -.0026)" fill="#FFF" d="M7.6188.0326L7.653 0l7.6215 7.2473-1.5987 1.4496L8.529 3.8737v21.116H6.7433V3.842L1.5625 8.6969 0 7.2473 7.6036 0l.0156.0326h-.0004z"
+      />
+    </symbol>
+
+    <symbol id="basket-icon">
+      <path transform="matrix(.95 0 0 .95 .0004 5.6536)" fill="#262626" fill-rule="evenodd" d="M18.9474 0H0v11.7895c0 2.2091 1.7909 4 4 4h10.9474c2.2091 0 4-1.7909 4-4V0zM4 14.2895c-1.3807 0-2.5-1.1193-2.5-2.5V1.5h15.9474v10.2895c0 1.3807-1.1193 2.5-2.5 2.5H4z"
+      />
+      <path transform="matrix(.95 0 0 .95 4.2878 .0001)" fill="#262626" d="M1.5 11.1525v-6.192C1.5 3.0493 3.0493 1.5 4.9605 1.5c1.9112 0 3.4605 1.5493 3.4605 3.4605v6.192a.75.75 0 0 0 1.5 0v-6.192C9.921 2.221 7.7002 0 4.9605 0 2.221 0 0 2.2209 0 4.9605v6.192a.75.75 0 0 0 1.5 0z"
+      />
+    </symbol>
+
+    <symbol id="facebook-icon">
+      <path transform="translate(3 3)" fill="#FFF" fill-rule="evenodd" d="M16.5 0h-15C.66 0 0 .66 0 1.5v15c0 .84.66 1.5 1.5 1.5h15c.84 0 1.5-.66 1.5-1.5v-15c0-.84-.66-1.5-1.5-1.5zM9.0518 11.2609H6.8V8.9652h2.2519V6.9565c0-1.6356 1.2385-3.013 2.8148-3.1564H14.4v2.2956h-2.2519c-.4785 0-.8444.373-.8444.8608v2.0087h2.8148v2.2957h-2.8148v5.9392H9.0519v-5.9392zm2.8768 5.9392h4.3928c.4979 0 .8786-.3808.8786-.8786V1.6785c0-.4977-.3807-.8785-.8786-.8785H1.6786C1.1806.8.8 1.1808.8 1.6786v14.6429c0 .4978.3807.8786.8786.8786h6.7356v-5.2715H6.0714V8.4143h2.3428V6.9501c0-1.9622 1.523-3.6315 3.4851-3.8072H15.15v3.5143h-2.9286c-.1757 0-.2928.117-.2928.2929v1.4642h2.9285v3.5143h-2.9285v5.2715z"
+      />
+    </symbol>
+
+    <symbol id="instagram-icon">
+      <path transform="translate(3 3)" fill="#fff" fill-rule="evenodd" d="M13.0326 0H4.9673C2.2283 0 0 2.2284 0 4.9674v8.0652C0 15.7717 2.2283 18 4.9673 18h8.0653C15.7717 18 18 15.7716 18 13.0326V4.9674C18.0001 2.2284 15.7717 0 13.0326 0zm3.9675 13.3579c0 2.0083-1.6339 3.6421-3.6422 3.6421h-8.716C2.6339 17.0001 1 15.3662 1 13.3579V4.6421C1 2.6339 2.6338 1 4.642 1h8.7158C15.3661 1 17 2.634 17 4.642l.0001 8.7159zM4.3618 9.0002c0-2.5574 2.0807-4.6381 4.6382-4.6381s4.6381 2.0807 4.6381 4.6381c0 2.5574-2.0806 4.638-4.6381 4.638-2.5575 0-4.6382-2.0806-4.6382-4.638zm9.073-6.166A.8036.8036 0 0 1 14 2.6c.2108 0 .4174.085.5658.2341a.804.804 0 0 1 .2341.566c0 .21-.0851.4165-.2341.5657A.8083.8083 0 0 1 14 4.2a.8067.8067 0 0 1-.5652-.2342A.807.807 0 0 1 13.2 3.4a.8052.8052 0 0 1 .1004-.3873.7908.7908 0 0 1 .1344-.1786z"
+      />
+    </symbol>
+
+    <symbol id="twitter-icon">
+      <path transform="translate(3 4.5)" fill="#fff" fill-rule="evenodd" d="M17.5302 1.5949c.1223-.0313.275 0 .3667.0937.0916.0938.1222.25.0917.375-.275.9062-.8249 1.5624-1.4971 1.9062v.0936C16.4915 10.0942 12.092 15 6.7148 15c-3.0246 0-5.4687-.5312-6.5686-1.4373-.1222-.125-.1833-.2813-.1222-.4688.061-.1562.2138-.2812.3971-.2812 1.8026-.0313 2.9636-.4687 3.8496-.9999-1.711-.2188-2.7803-1.0624-3.3302-2.656-.0611-.1563 0-.3125.1222-.4063.1222-.0937.3055-.0937.4277-.0312.4583.3125.9166.375 1.4665.375C1.7959 8.3757.7266 7.1882.2989 5.7195c-.0306-.1562.0306-.3436.1528-.4061.1527-.0938.3055-.0625.4277.0313.336.281.7027.4686 1.2526.5623C.9405 4.6571.2073 2.8135 1.246.7825l.1833-.375.3055.3125C3.629 2.751 5.3705 3.6885 8.5479 4.3134v-.125c0-2.281 1.7415-4.1559 3.9107-4.1871.8554 0 2.0469.625 2.5358.9062a.0943.0943 0 0 1 .0333.0084c.0161.0064.0278.0109.0278-.0084.6111-.1875 1.3443-.5 2.1997-.875.1223-.0625.275-.0312.3667.0625.0917.0938.1222.2188.0611.375a4.3062 4.3062 0 0 1-.7638 1.3436l.611-.2187zm-1.7948 2.143l.1779-.0605c.5631-.2112.8892-.664 1.0967-1.0561l-1.156.3923c-.1482.0603-.326 0-.3853-.1509-.0593-.151-.0296-.332.0889-.4226.4742-.3923.8299-.8148 1.0967-1.2675-.5928.2414-1.1263.4527-1.5709.6036-.1779.0603-.3557.0301-.5335-.0603l-.0183-.0102c-.348-.1934-1.4463-.8043-2.1158-.7745-1.7784.0301-3.2012 1.5693-3.2012 3.4404v.845l-.3557-.0603c-3.2603-.6036-5.0684-1.4789-6.9654-3.3801-.8892 2.2935.9485 3.8932 1.571 4.3458l.741.5432h-.919c-.5928 0-1.2448-.0603-1.8376-.3319.652 1.3882 1.986 2.4143 3.1122 2.7463l-.089.6036c-.237 0-.4742 0-.7112.0301-.6225.0303-1.1856.0303-1.7192-.1509.5928 1.1469 1.6302 1.6298 3.3197 1.6298h.8892l-.741.5432c-.9188.7242-2.1044 1.3882-4.1496 1.5392.9781.4828 2.7861.9355 5.4834.9355 4.6213 0 8.892-4.711 8.892-9.9592v-.513z"
+      />
+    </symbol>
+  </svg>
+
   <header>
     <div class="container">
       <div class="row">
@@ -19,19 +82,22 @@
             <img class="logo-img" src="./assets/img/logo/logo.svg" alt="Uber Eats logo">
           </div>
         </div>
-        <div class="hidden-xs hidden-sm col-md-6 col-lg-6">
+        <div class="hidden-xs hidden-sm col-md-5 col-lg-6">
           <div class="order">
-            <input type="text" class="order-time" value="ASAP">
+            <button class="order-time" type="button" aria-labelledby="ASAP">ASAP</button>
             <span>to</span>
-            <input class="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <input class="order-dest" id="order-destination" type="text" value="ul. Bolshaya Dmitrovka,22">
+            <label for="order-destination" style="display:none;">укажите адрес доставки</label>
           </div>
         </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+        <div class="col-xs-6 col-sm-6 col-md-5 col-lg-3">
           <div class="account">
-            <button class="sign-in">Sign in</button>
-            <button class="register">Register</button>
+            <button class="sign-in" type="button">Sign in</button>
+            <button class="register" type="button">Register</button>
             <div class="hidden-xs hidden-sm cart">
-              <img class="cart-img" src="./assets/img/icons/basket.svg">
+              <svg width="19" height="22">
+                <use xlink:href="#basket-icon"></use>
+              </svg>
             </div>
           </div>
         </div>
@@ -41,174 +107,185 @@
 
   <main>
     <div class="container">
-      <input class="restaurants-search" type="text" placeholder="Search for restaurant or cuisine">
-      
+
+      <label style="display:none;" for="rest-search">Search for restaurant or cuisine</label>
+      <input class="restaurants-search" id="rest-search" type="text" placeholder="Search for restaurant or cuisine">
+
       <div class="row">
         <div class="col-xs-12 hidden-sm hidden-md hidden-lg hidden-xl">
           <div class="order">
             <div class="row">
               <div class="col-xs-3">
-                <label for="order-time" class="order-time-label">When</label>
+                <label for="o-time" class="order-time-label">When</label>
               </div>
-              <div class="col-xs-9">              
-                <label for="order-dest" class="order-time-label">To</label> 
-              </div> 
+              <div class="col-xs-9">
+                <label for="o-dest" class="order-time-label">To</label>
+              </div>
               <div class="col-xs-3">
-                <input class="order-time" name="order-time" type="text" value="ASAP">
+                <button class="order-time" id="o-time" type="button">ASAP</button>
               </div>
-              <div class="col-xs-9">              
-                <input class="order-dest" name="order-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
+              <div class="col-xs-9">
+                <input class="order-dest" id="o-dest" type="text" value="ul. Bolshaya Dmitrovka,22">
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+
       <section class="restaurants">
         <h1 class="restaurants-title">Moscow Restaurants</h1>
-      
+
         <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/1.png" srcset="./assets/img/restaurant-cards/1@2x.png 2x,
-            ./assets/img/restaurant-cards/1@3x.png 3x" alt="Макдоналдс — Газетный">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <picture>
+                <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/1.png" class="restaurant-img" alt="Макдоналдс — Газетный">
+              </picture>
               <div class="restaurant-info">
                 <h3 class="restaurant-title">Макдоналдс — Газетный</h3>
                 <p class="restaurant-tags">₽₽ • Бургеры</p>
                 <p class="restaurant-duration">25 - 35 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/2.png" srcset="./assets/img/restaurant-cards/2@2x.png 2x,
-              ./assets/img/restaurant-cards/2@3x.png 3x" alt="DimSum &#38; Co — ЦДМ">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/2.png" class="restaurant-img" alt="DimSum &#38; Co — ЦДМ">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">DimSum &#38; Co — ЦДМ</h3>
                 <p class="restaurant-tags">₽ • Японская • Китайская • Азиатская</p>
                 <p class="restaurant-duration">40 - 50 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/3.png" srcset="./assets/img/restaurant-cards/3@2x.png 2x,
-              ./assets/img/restaurant-cards/3@3x.png 3x" alt="ДвижОК — Манежная">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/3.png" class="restaurant-img" alt="ДвижОК — Манежная">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">ДвижОК — Манежная</h3>
                 <p class="restaurant-tags">₽ • Американская • Европейская</p>
                 <p class="restaurant-duration">35 - 45 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/4.png" srcset="./assets/img/restaurant-cards/4@2x.png 2x,
-                ./assets/img/restaurant-cards/4@3x.png 3x" alt="НЯ — NHA">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/4.png" class="restaurant-img" alt="НЯ — NHA">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">НЯ — NHA</h3>
                 <p class="restaurant-tags">₽₽ • Вьетнамская</p>
                 <p class="restaurant-duration">30 - 40 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/5.png" srcset="./assets/img/restaurant-cards/5@2x.png 2x,
-              ./assets/img/restaurant-cards/5@3x.png 3x" alt="Точка Дзы — Цветной">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/5.png" class="restaurant-img" alt="Точка Дзы — Цветной">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">Точка Дзы — Цветной</h3>
                 <p class="restaurant-tags">₽₽ • Вьетнамская</p>
                 <p class="restaurant-duration">40 - 50 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/6.png" srcset="./assets/img/restaurant-cards/6@2x.png 2x,
-              ./assets/img/restaurant-cards/6@3x.png 3x" alt="Cinnabon">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/6.png" class="restaurant-img" alt="Cinnabon">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">Cinnabon</h3>
                 <p class="restaurant-tags">₽ • Выпечка • Десерты • Капкейки</p>
                 <p class="restaurant-duration">25 - 35 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/7.png" srcset="./assets/img/restaurant-cards/7@2x.png 2x,
-              ./assets/img/restaurant-cards/7@3x.png 3x" alt="PIZZELOVE">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/7.png" class="restaurant-img" alt="PIZZELOVE">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">PIZZELOVE</h3>
                 <p class="restaurant-tags">₽₽ • Пицца</p>
                 <p class="restaurant-duration">15 - 25 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/8.png" srcset="./assets/img/restaurant-cards/8@2x.png 2x,
-              ./assets/img/restaurant-cards/8@3x.png 3x" alt="Zю кафе — Тверская">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/8.png" class="restaurant-img" alt="Zю кафе — Тверская">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">Zю кафе — Тверская</h3>
                 <p class="restaurant-tags">₽₽ • Японская</p>
                 <p class="restaurant-duration">25 - 35 Min</p>
               </div>
-            </div>
+            </a>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-            <div class="restaurant-card">
-              <img src="./assets/img/restaurant-cards/9.png" srcset="./assets/img/restaurant-cards/9@2x.png 2x,
-              ./assets/img/restaurant-cards/9@3x.png 3x" alt="Bar BQ Cafe — Манежная">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <a href="./restaurant.html" class="restaurant-card">
+
+              <img src="https://s3.eu-central-1.amazonaws.com/uber-eats-test/restaurant-cards/9.png" class="restaurant-img" alt="Bar BQ Cafe — Манежная">
               <div class="restaurant-info">
                 <h3 class="restaurant-title">Bar BQ Cafe — Манежная</h3>
                 <p class="restaurant-tags">₽₽₽ • Европейская</p>
                 <p class="restaurant-duration">30 - 40 Min</p>
               </div>
-            </div>
+
+            </a>
           </div>
         </div>
       </section>
     </div>
   </main>
 
-  <footer>
+  <footer class="main-footer">
     <div class="container">
       <div class="row">
         <div class="col-xs-8 col-md-4 col-lg-3">
           <section class="white-logo">
-            <img class="white-logo-img" src="./assets/img/logo/white-logo.svg">
+            <img class="white-logo-img" src="./assets/img/logo/white-logo.svg" alt="Uber Eats logo">
           </section>
         </div>
       </div>
-      
+
       <hr>
-      
+
       <section class="info">
         <div class="row">
 
           <div class="col-md-4 col-lg-4 col-xl-4">
-            <select class="language-dropdown">
+            <label style="display:none;" for="lang-dropdown">Choose language used on page</label>
+            <select class="language-dropdown" id="lang-dropdown">
               <option>ENGLISH</option>
             </select>
-            <p class="hashtag">#<span>UberEats</span></p>
+            <p class="hashtag">#
+              <span>UberEats</span>
+            </p>
             <div class="social-links">
               <div class="facebook-link">
-                <img src="./assets/img/icons/socials/facebook.svg">
+                <svg width="24" height="24">
+                  <use xlink:href="#facebook-icon"></use>
+                </svg>
               </div>
               <div class="twitter-link">
-                <img src="./assets/img/icons/socials/twitter.svg">
+                <svg width="24" height="24">
+                  <use xlink:href="#twitter-icon"></use>
+                </svg>
               </div>
               <div class="instagram-link">
-                <img src="./assets/img/icons/socials/instagram.svg">
+                <svg width="24" height="24">
+                  <use xlink:href="#instagram-icon"></use>
+                </svg>
               </div>
             </div>
           </div>
@@ -235,23 +312,41 @@
       <hr>
 
       <section class="download-links">
-        <img class="app-store-icon" src="./assets/img/icons/downloads/app-store.png" alt="get it on App Store">
-        <img class="play-market-icon" src="./assets/img/icons/downloads/play-market.png" alt="get it on Play Market">
+        <div class="appstore-icon" role="link" aria-label="App store"></div>
+        <div class="playmarket-icon" role="link" aria-label="Play market"></div>
       </section>
       <hr>
 
       <section class="legal-info">
-        <div class="row">            
-          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><span>© 2017 Uber Technologies Inc.</span></div>
-          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><div class="legal-links"><a href="#">Privacy</a></div></div>
-          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4"><div class="legal-links"><a href="#">Terms</a></div></div>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <span>© 2017 Uber Technologies Inc.</span>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="legal-links">
+              <a href="#">Privacy</a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="legal-links">
+              <a href="#">Terms</a>
+            </div>
+          </div>
         </div>
       </section>
     </div>
-    <div class="updown-btn">
-      <img src="./assets/img/icons/arrow.svg">
-    </div>
-  </footer>
 
+  </footer>
+  <button class="scroll-to-top">
+    <svg width="15" height="24">
+      <use xlink:href="#arrow-to-top"></use>
+    </svg>
+  </button>
+  <script async src="./build/js/main.min.js"></script>
+  <script async src="./build/js/scrollToTop.min.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) { navigator.serviceWorker.register('./build/js/serviceworker.min.js') }
+  </script>
 </body>
+
 </html>

@@ -1,14 +1,3 @@
-<svg width="15" height="24" viewBox="0 0 15 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title></title>
-<desc>Created using Figma</desc>
-<g id="Canvas" transform="matrix(0.960394 0 0 0.960394 -459.452 -1383.94)">
-<g id="arrow">
-<g id="Shape">
-<use xlink:href="#path0_fill" transform="translate(478.4 1441.01)" fill="#FFFFFF"/>
-</g>
-</g>
-</g>
-<defs>
-<path id="path0_fill" d="M 7.61875 0.0325893L 7.65312 0L 15.2746 7.24732L 13.6759 8.69687L 8.52902 3.87366L 8.52902 24.9897L 6.7433 24.9897L 6.7433 3.84196L 1.5625 8.69687L 0 7.24732L 7.60357 0L 7.6192 0.0325893L 7.61875 0.0325893Z"/>
-</defs>
+<svg width="15" height="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path transform="matrix(.9604 0 0 .9604 .0005 -.0026)" fill="#FFF" d="M7.6188.0326L7.653 0l7.6215 7.2473-1.5987 1.4496L8.529 3.8737v21.116H6.7433V3.842L1.5625 8.6969 0 7.2473 7.6036 0l.0156.0326h-.0004z"/>
 </svg>
