@@ -10,8 +10,8 @@
 
 ## Главная страница
 
-<div><img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png" width="70%" alt="main page on iPhone">
-<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png" width="25%" alt="main page on iPad">
+<div><img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/ipad.png" width="60%" alt="main page on iPhone">
+<img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/iphone.png" width="20%" alt="main page on iPad">
 <img src="https://raw.githubusercontent.com/zlydenko/verstka/dev/preview/main/laptop.png" width="100%" alt="main page on laptop"></div>
 
 ---
